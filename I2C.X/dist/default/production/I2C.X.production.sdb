@@ -1,0 +1,343 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"19 D:\Electronica\Curso\Taller Curso 1\Clase 7\I2C.X\Ds1307_Libreria.c
+[v _Escribir_Hora Escribir_Hora `(v  1 e 1 0 ]
+"33
+[v _Leer_Hora Leer_Hora `(v  1 e 1 0 ]
+"6 D:\Electronica\Curso\Taller Curso 1\Clase 7\I2C.X\I2C_Libreria.c
+[v _I2C_Init I2C_Init `(v  1 e 1 0 ]
+"21
+[v _I2C_Start I2C_Start `(v  1 e 1 0 ]
+"26
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+"31
+[v _I2C_Restart I2C_Restart `(v  1 e 1 0 ]
+"36
+[v _I2C_NACK I2C_NACK `(v  1 e 1 0 ]
+"44
+[v _I2C_ACK I2C_ACK `(v  1 e 1 0 ]
+"52
+[v _I2C_Tx I2C_Tx `(v  1 e 1 0 ]
+"59
+[v _I2C_Rx I2C_Rx `(uc  1 e 1 0 ]
+"6 D:\Electronica\Curso\Taller Curso 1\Clase 7\I2C.X\LCD_Libreria.c
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"23
+[v _LCD_Comando LCD_Comando `(v  1 e 1 0 ]
+"64
+[v _LCD_Data LCD_Data `(v  1 e 1 0 ]
+"87
+[v _LCD_XY LCD_XY `(v  1 e 1 0 ]
+"96
+[v _LDC_Cadena LDC_Cadena `(v  1 e 1 0 ]
+"18 D:\Electronica\Curso\Taller Curso 1\Clase 7\I2C.X\Programa_principal.c
+[v _main main `(v  1 e 1 0 ]
+"10 D:\Electronica\Curso\Taller Curso 1\Clase 7\I2C.X/Ds1307_Libreria.h
+[v _horas horas `uc  1 e 1 0 ]
+[v _segundos segundos `uc  1 e 1 0 ]
+[v _minutos minutos `uc  1 e 1 0 ]
+"3263 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S461 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"3290
+[s S470 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S479 . 1 `S461 1 . 1 0 `S470 1 . 1 0 ]
+[v _LATDbits LATDbits `VES479  1 e 1 @3980 ]
+[s S123 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"3657
+[s S132 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S141 . 1 `S123 1 . 1 0 `S132 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES141  1 e 1 @3987 ]
+"4001
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S353 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 SPPIF 1 0 :1:7 
+]
+"4492
+[s S362 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+[u S368 . 1 `S353 1 . 1 0 `S362 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES368  1 e 1 @3998 ]
+[s S29 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 VCFG 1 0 :2:4 
+]
+"6606
+[s S32 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+]
+[s S39 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+`uc 1 VCFG01 1 0 :1:4 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S44 . 1 `S29 1 . 1 0 `S32 1 . 1 0 `S39 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES44  1 e 1 @4033 ]
+"6806
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @4037 ]
+[s S332 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"6823
+[u S341 . 1 `S332 1 . 1 0 ]
+[v _SSPCON2bits SSPCON2bits `VES341  1 e 1 @4037 ]
+[s S304 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"6888
+[s S310 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S315 . 1 `S304 1 . 1 0 `S310 1 . 1 0 ]
+[v _SSPCON1bits SSPCON1bits `VES315  1 e 1 @4038 ]
+[s S163 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"7021
+[s S166 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S169 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S178 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S183 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S189 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S194 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S197 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S200 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S205 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S210 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S215 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+]
+[s S221 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 NOT_A 1 0 :1:5 
+]
+[u S226 . 1 `S163 1 . 1 0 `S166 1 . 1 0 `S169 1 . 1 0 `S178 1 . 1 0 `S183 1 . 1 0 `S189 1 . 1 0 `S194 1 . 1 0 `S197 1 . 1 0 `S200 1 . 1 0 `S205 1 . 1 0 `S210 1 . 1 0 `S215 1 . 1 0 `S221 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES226  1 e 1 @4039 ]
+"7186
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"7193
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"9 D:\Electronica\Curso\Taller Curso 1\Clase 7\I2C.X\Ds1307_Libreria.c
+[v _set set `[6]uc  1 e 6 0 ]
+"15 D:\Electronica\Curso\Taller Curso 1\Clase 7\I2C.X\Programa_principal.c
+[v _i i `uc  1 e 1 0 ]
+"18
+[v _main main `(v  1 e 1 0 ]
+{
+"49
+} 0
+"33 D:\Electronica\Curso\Taller Curso 1\Clase 7\I2C.X\Ds1307_Libreria.c
+[v _Leer_Hora Leer_Hora `(v  1 e 1 0 ]
+{
+"46
+} 0
+"59 D:\Electronica\Curso\Taller Curso 1\Clase 7\I2C.X\I2C_Libreria.c
+[v _I2C_Rx I2C_Rx `(uc  1 e 1 0 ]
+{
+"65
+} 0
+"31
+[v _I2C_Restart I2C_Restart `(v  1 e 1 0 ]
+{
+"34
+} 0
+"36
+[v _I2C_NACK I2C_NACK `(v  1 e 1 0 ]
+{
+"42
+} 0
+"44
+[v _I2C_ACK I2C_ACK `(v  1 e 1 0 ]
+{
+"50
+} 0
+"96 D:\Electronica\Curso\Taller Curso 1\Clase 7\I2C.X\LCD_Libreria.c
+[v _LDC_Cadena LDC_Cadena `(v  1 e 1 0 ]
+{
+[v LDC_Cadena@dato dato `*.32Cuc  1 p 2 2 ]
+"102
+} 0
+"64
+[v _LCD_Data LCD_Data `(v  1 e 1 0 ]
+{
+[v LCD_Data@data data `uc  1 a 1 wreg ]
+[v LCD_Data@data data `uc  1 a 1 wreg ]
+"68
+[v LCD_Data@data data `uc  1 a 1 1 ]
+"85
+} 0
+"87
+[v _LCD_XY LCD_XY `(v  1 e 1 0 ]
+{
+[v LCD_XY@x x `i  1 p 2 2 ]
+[v LCD_XY@y y `i  1 p 2 4 ]
+"94
+} 0
+"6
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+"21
+} 0
+"23
+[v _LCD_Comando LCD_Comando `(v  1 e 1 0 ]
+{
+[v LCD_Comando@cmd cmd `uc  1 a 1 wreg ]
+[v LCD_Comando@cmd cmd `uc  1 a 1 wreg ]
+"27
+[v LCD_Comando@cmd cmd `uc  1 a 1 1 ]
+"62
+} 0
+"6 D:\Electronica\Curso\Taller Curso 1\Clase 7\I2C.X\I2C_Libreria.c
+[v _I2C_Init I2C_Init `(v  1 e 1 0 ]
+{
+"19
+} 0
+"19 D:\Electronica\Curso\Taller Curso 1\Clase 7\I2C.X\Ds1307_Libreria.c
+[v _Escribir_Hora Escribir_Hora `(v  1 e 1 0 ]
+{
+"31
+} 0
+"52 D:\Electronica\Curso\Taller Curso 1\Clase 7\I2C.X\I2C_Libreria.c
+[v _I2C_Tx I2C_Tx `(v  1 e 1 0 ]
+{
+[v I2C_Tx@dato dato `uc  1 a 1 wreg ]
+[v I2C_Tx@dato dato `uc  1 a 1 wreg ]
+[v I2C_Tx@dato dato `uc  1 a 1 0 ]
+"57
+} 0
+"26
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+{
+"29
+} 0
+"21
+[v _I2C_Start I2C_Start `(v  1 e 1 0 ]
+{
+"24
+} 0
